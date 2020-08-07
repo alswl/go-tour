@@ -5,12 +5,12 @@ import "fmt"
 func do(i interface{}) {
 	switch v := i.(type) {
 	case int:
-		fmt.Println("Twice %v is %v\n", v, v * 2)
+		fmt.Println("Twice %v is %v\n", v, v*2)
 	case string:
 		fmt.Println("%q is $v bytes long\n", v, len(v))
 	default:
 		fmt.Println("I don't know about type %T!\n", v)
-	
+
 	}
 }
 

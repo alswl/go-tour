@@ -14,7 +14,7 @@ imag, imaginary of complex
 len, array / pointer / slice, string, channel
 make, slice / map / chan
 new, allocate memory
-panic, 
+panic,
 print
 println
 real, read of complex

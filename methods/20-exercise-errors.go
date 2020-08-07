@@ -8,7 +8,7 @@ import (
 type ErrNegativeSqrt float64
 
 func (e ErrNegativeSqrt) Error() string {
-	// value e, cause cascade Error(), use float64(e) 
+	// value e, cause cascade Error(), use float64(e)
 	return fmt.Sprintf("cannot Sqrt negative number: %v", float64(e))
 }
 

@@ -19,7 +19,7 @@ func (t *T) M() {
 
 type F float64
 
-func (f F)M() {
+func (f F) M() {
 	fmt.Println(f)
 }
 
@@ -32,9 +32,9 @@ func main() {
 	i = &T{"Hello"}
 	describe(i)
 	i.M()
-	
+
 	i = F(math.Pi)
 	describe(i)
 	i.M()
-	
+
 }

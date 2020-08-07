@@ -14,7 +14,6 @@ func powWithLim2(x, n, lim float64) float64 {
 	return lim
 }
 
-
 func main() {
 	fmt.Println(
 		powWithLim2(3, 2, 10),

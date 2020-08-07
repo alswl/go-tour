@@ -14,5 +14,5 @@ func main() {
 	var i I
 	describe(i)
 	i.M()
-	
+
 }

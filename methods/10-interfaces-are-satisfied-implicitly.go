@@ -14,11 +14,10 @@ func (t T) M() {
 	fmt.Println(t.S)
 }
 
-
 func main() {
 	var i I = T{"hello"}
 	i.M()
-	
+
 	//t := T{"hello"}
 	//t.M()
 }

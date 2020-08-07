@@ -5,13 +5,12 @@ import (
 )
 
 type I interface {
-	 M()
+	M()
 }
 
 type T struct {
 	S string
 }
-
 
 func (t *T) M() {
 	if t == nil {
@@ -28,7 +27,7 @@ func describe(i I) {
 func main() {
 	var i I
 	var t *T
-	
+
 	i = t
 	describe(i)
 	i.M()

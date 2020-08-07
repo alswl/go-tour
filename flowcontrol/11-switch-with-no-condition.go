@@ -15,5 +15,5 @@ func main() {
 	case t.Hour() < 12:
 		fmt.Println("Good evening.")
 	}
-	
+
 }
